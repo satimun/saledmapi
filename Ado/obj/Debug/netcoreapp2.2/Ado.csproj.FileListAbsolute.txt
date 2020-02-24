@@ -1,0 +1,15 @@
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Ado.deps.json
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Ado.runtimeconfig.json
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Ado.runtimeconfig.dev.json
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Ado.dll
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Ado.pdb
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.AssemblyInfoInputs.cache
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.AssemblyInfo.cs
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.dll
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.pdb
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.csprojAssemblyReference.cache
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\core.dll
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\core.pdb
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.csproj.CopyComplete

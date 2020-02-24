@@ -4,28 +4,31 @@
     "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
+    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj",
+        "projectName": "core",
+        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj",
         "packagesPath": "C:\\Users\\4604587\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\obj\\",
+        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\4604587\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -36,7 +39,19 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,11 +62,68 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\4604587\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\4604587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }

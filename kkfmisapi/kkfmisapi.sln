@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kkfmisapi", "kkfmisapi.csproj", "{CC6E8F35-ED88-49DF-A87A-A061A29002B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ado", "..\Ado\Ado.csproj", "{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A779DAD1-BF4F-4220-8745-52717102334C} = {A779DAD1-BF4F-4220-8745-52717102334C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ado", "..\Ado\Ado.csproj", "{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "..\Model\Model.csproj", "{A779DAD1-BF4F-4220-8745-52717102334C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "..\Model\Model.csproj", "{A779DAD1-BF4F-4220-8745-52717102334C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kkfmisservice", "..\kkfmisservice\kkfmisservice.csproj", "{40344F56-AAC4-43A7-B375-1C030056C68C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webservice", "..\Webservice\Webservice.csproj", "{6CB99114-26DB-47D1-B1C5-76D3355BE1B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "..\core\core.csproj", "{59DCD8EA-C96C-4D07-8AD8-05D5D3F3E58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +20,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC6E8F35-ED88-49DF-A87A-A061A29002B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC6E8F35-ED88-49DF-A87A-A061A29002B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC6E8F35-ED88-49DF-A87A-A061A29002B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC6E8F35-ED88-49DF-A87A-A061A29002B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8C66C1-4B7A-42BD-8210-3D1531EDE43F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A779DAD1-BF4F-4220-8745-52717102334C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A779DAD1-BF4F-4220-8745-52717102334C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A779DAD1-BF4F-4220-8745-52717102334C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A779DAD1-BF4F-4220-8745-52717102334C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CB99114-26DB-47D1-B1C5-76D3355BE1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CB99114-26DB-47D1-B1C5-76D3355BE1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CB99114-26DB-47D1-B1C5-76D3355BE1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CB99114-26DB-47D1-B1C5-76D3355BE1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40344F56-AAC4-43A7-B375-1C030056C68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40344F56-AAC4-43A7-B375-1C030056C68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40344F56-AAC4-43A7-B375-1C030056C68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40344F56-AAC4-43A7-B375-1C030056C68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DCD8EA-C96C-4D07-8AD8-05D5D3F3E58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DCD8EA-C96C-4D07-8AD8-05D5D3F3E58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DCD8EA-C96C-4D07-8AD8-05D5D3F3E58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DCD8EA-C96C-4D07-8AD8-05D5D3F3E58B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

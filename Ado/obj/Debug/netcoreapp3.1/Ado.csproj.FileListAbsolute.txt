@@ -1,0 +1,4 @@
+C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp3.1\Ado.exe
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp3.1\Ado.csprojAssemblyReference.cache
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp3.1\Ado.AssemblyInfoInputs.cache
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp3.1\Ado.AssemblyInfo.cs
