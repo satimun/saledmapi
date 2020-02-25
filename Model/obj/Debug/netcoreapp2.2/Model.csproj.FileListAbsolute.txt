@@ -3,11 +3,11 @@ C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\Model.runt
 C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\Model.runtimeconfig.dev.json
 C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\Model.dll
 C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\Model.pdb
-C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
-C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
-C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.dll
-C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.pdb
 C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\core.dll
 C:\Users\4604587\source\repos\kkfmisapi\Model\bin\Debug\netcoreapp2.2\core.pdb
 C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
 C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.csproj.CopyComplete
+C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\Users\4604587\source\repos\kkfmisapi\Model\obj\Debug\netcoreapp2.2\Model.pdb

@@ -6,8 +6,8 @@ namespace Model.Request.mdmSales
 {
     public class mdmSalesSearchSummaryReq
     {
-        public int ayr { get; set; }
-        public string atsale { get; set; }
+        public int yr { get; set; }
+        public string tsale { get; set; }
 
     }
   

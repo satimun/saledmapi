@@ -1,0 +1,8 @@
+C:\Users\4604587\source\repos\kkfmisapi\core\bin\Release\netcoreapp2.2\core.deps.json
+C:\Users\4604587\source\repos\kkfmisapi\core\bin\Release\netcoreapp2.2\core.dll
+C:\Users\4604587\source\repos\kkfmisapi\core\bin\Release\netcoreapp2.2\core.pdb
+C:\Users\4604587\source\repos\kkfmisapi\core\obj\Release\netcoreapp2.2\core.csprojAssemblyReference.cache
+C:\Users\4604587\source\repos\kkfmisapi\core\obj\Release\netcoreapp2.2\core.AssemblyInfoInputs.cache
+C:\Users\4604587\source\repos\kkfmisapi\core\obj\Release\netcoreapp2.2\core.AssemblyInfo.cs
+C:\Users\4604587\source\repos\kkfmisapi\core\obj\Release\netcoreapp2.2\core.dll
+C:\Users\4604587\source\repos\kkfmisapi\core\obj\Release\netcoreapp2.2\core.pdb

@@ -30,7 +30,7 @@ namespace kkfmisservice
                 {
                     builder
                     .AllowAnyOrigin()
-                    .WithOrigins("http://localhost:8080", "https://kkfconnect.kkfnets.com", "http://devkkfconnect.kkfnets.com")
+                    .WithOrigins("http://localhost:8080", "https://kkfmisapi.kkfnets.com", "http://kkfmisapi.kkfnets.com")
                     //.WithMethods("GET", "PUT", "POST", "DELETE")
                     .AllowAnyMethod()
                     .AllowAnyHeader()

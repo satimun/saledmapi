@@ -7,12 +7,10 @@ namespace Model.Response.mdmSales
 
     public class mdmsalesRes
     {
-        public int? ID { get; set; }
-        public string Code { get; set; }
-        public string Description { get; set; }
-        public string Symbol { get; set; }
-        public string Status { get; set; }
-        public string UpdateBy { get; set; }
-        public long? Timestamp { get; set; }
+        public decimal target_value { get; set; }
+        public decimal totsale_value { get; set; }
+        public decimal diff_value { get; set; }
+        public decimal percent_diff { get; set; }
+
     }
 }
