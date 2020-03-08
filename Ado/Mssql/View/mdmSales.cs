@@ -34,8 +34,11 @@ namespace Ado.Mssql.View
 
             if (d.tsale == "")
             {
-                string cmd = "SELECT SUM(target_value) AS target_value, SUM(totsale_value) AS totsale_value " +
-                    $" , SUM(target_value - totsale_value) as diff_value FROM mdmSales WHERE YR = " + d.yr.ToString();
+                string cmd = "SELECT ROUND(SUM(target_value)/1000000,2) AS target_value "+
+                    $" , ROUND(SUM(totsale_value)/1000000,2) AS totsale_value " +
+                    $" , ROUND(SUM(target_value)/1000000,2) - ROUND(SUM(totsale_value)/1000000,2) as diff_value " +
+                    $" , ROUND(CASE WHEN ROUND(SUM(target_value)/1000000,2) = 0 THEN 0 ELSE "+
+                    $" ROUND(SUM(totsale_value)/1000000,2) * 100 / ROUND(SUM(target_value)/1000000,2) END,2) AS percent_diff FROM mdmSales WHERE YR = " + d.yr.ToString();
                 
                 var res = Query<Model.View.Mssql.mdvSalesSummary>(cmd, param).ToList();
 
@@ -43,8 +46,11 @@ namespace Ado.Mssql.View
             }
             else
             {
-                string cmd = "SELECT SUM(target_value) AS target_value, SUM(totsale_value) AS totsale_value " +
-                    $" , SUM(target_value - totsale_value) as diff_value FROM mdmSales WHERE YR = " + d.yr.ToString()+
+                string cmd = "SELECT ROUND(SUM(target_value)/1000000,2) AS target_value " +
+                    $" , ROUND(SUM(totsale_value)/1000000,2) AS totsale_value " +
+                    $" , ROUND(SUM(target_value)/1000000,2) - ROUND(SUM(totsale_value)/1000000,2) as diff_value " +
+                    $" , ROUND(CASE WHEN ROUND(SUM(target_value)/1000000,2) = 0 THEN 0 ELSE " +
+                    $" ROUND(SUM(totsale_value)/1000000,2) * 100 / ROUND(SUM(target_value)/1000000,2) END,2) AS percent_diff FROM mdmSales WHERE YR = " + d.yr.ToString()+
                     $" AND TSALE = '"+d.tsale+"'";
 
                 var res = Query<Model.View.Mssql.mdvSalesSummary>(cmd, param).ToList();

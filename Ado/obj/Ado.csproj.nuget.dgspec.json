@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj": {
-                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj"
+              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
               },
               "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
                 "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj"
@@ -55,7 +55,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.8, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -70,11 +70,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     },
@@ -138,11 +133,6 @@
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
-        }
       }
     },
     "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
@@ -171,8 +161,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj": {
-                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj"
+              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
               }
             }
           }
@@ -189,7 +179,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.8, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -204,11 +194,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

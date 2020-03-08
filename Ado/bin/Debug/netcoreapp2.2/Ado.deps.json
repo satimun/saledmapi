@@ -178,7 +178,7 @@
           "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
-          "core.dll": {}
+          "Core.dll": {}
         }
       },
       "Model/1.0.0": {
