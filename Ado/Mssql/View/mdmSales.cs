@@ -36,7 +36,7 @@ namespace Ado.Mssql.View
             {
                 string cmd = "SELECT ROUND(SUM(target_value)/1000000,2) AS target_value "+
                     $" , ROUND(SUM(totsale_value)/1000000,2) AS totsale_value " +
-                    $" , ROUND(SUM(target_value)/1000000,2) - ROUND(SUM(totsale_value)/1000000,2) as diff_value " +
+                    $" , ROUND(SUM(totsale_value)/1000000,2) - ROUND(SUM(target_value)/1000000,2) as diff_value " +
                     $" , ROUND(CASE WHEN ROUND(SUM(target_value)/1000000,2) = 0 THEN 0 ELSE "+
                     $" ROUND(SUM(totsale_value)/1000000,2) * 100 / ROUND(SUM(target_value)/1000000,2) END,2) AS percent_diff FROM mdmSales WHERE YR = " + d.yr.ToString();
                 
@@ -48,7 +48,7 @@ namespace Ado.Mssql.View
             {
                 string cmd = "SELECT ROUND(SUM(target_value)/1000000,2) AS target_value " +
                     $" , ROUND(SUM(totsale_value)/1000000,2) AS totsale_value " +
-                    $" , ROUND(SUM(target_value)/1000000,2) - ROUND(SUM(totsale_value)/1000000,2) as diff_value " +
+                    $" ,  ROUND(SUM(totsale_value)/1000000,2) - ROUND(SUM(target_value)/1000000,2) as diff_value " +
                     $" , ROUND(CASE WHEN ROUND(SUM(target_value)/1000000,2) = 0 THEN 0 ELSE " +
                     $" ROUND(SUM(totsale_value)/1000000,2) * 100 / ROUND(SUM(target_value)/1000000,2) END,2) AS percent_diff FROM mdmSales WHERE YR = " + d.yr.ToString()+
                     $" AND TSALE = '"+d.tsale+"'";

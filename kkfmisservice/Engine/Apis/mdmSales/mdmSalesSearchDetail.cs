@@ -24,14 +24,15 @@ namespace kkfmisservice.Engine.Apis.mdmSales
 
             foreach (var x in roles)
             {
-                var tmp = new Model.Response.mdmSales.mdmSalesSearchDetailRes();
+                var tmp = new Model.Response.mdmSales.mdmSalesSearchDetailRes();               
 
-                tmp.month_code = x.month_code;
+                tmp.month_code = x.month_code;                
                 tmp.target_value = x.target_value;
+                tmp.totpi_value = x.totpi_value;
                 tmp.totsale_value = x.totsale_value;
                 tmp.diff_value = x.diff_value;
                 tmp.percent_diff = x.percent_diff;
-
+                
 
                 res.Add(tmp);
 
