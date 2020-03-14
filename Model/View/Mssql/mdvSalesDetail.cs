@@ -14,5 +14,9 @@ namespace Model.View.Mssql
         public decimal totsale_value;
         public decimal diff_value;
         public decimal percent_diff;
+        public decimal cum_target_value;
+        public decimal cum_sale_value;
+        public decimal cum_diff_value;
+        public decimal cum_percent_diff;
     }
 }

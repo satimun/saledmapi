@@ -13,3 +13,5 @@ C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Model.dll
 C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\core.pdb
 C:\Users\4604587\source\repos\kkfmisapi\Ado\bin\Debug\netcoreapp2.2\Model.pdb
 C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.csproj.CopyComplete
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.Properties.Resources.resources
+C:\Users\4604587\source\repos\kkfmisapi\Ado\obj\Debug\netcoreapp2.2\Ado.csproj.GenerateResource.cache

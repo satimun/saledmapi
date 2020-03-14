@@ -32,7 +32,10 @@ namespace kkfmisservice.Engine.Apis.mdmSales
                 tmp.totsale_value = x.totsale_value;
                 tmp.diff_value = x.diff_value;
                 tmp.percent_diff = x.percent_diff;
-                
+                tmp.cum_target_value = x.cum_target_value;
+                tmp.cum_sale_value = x.cum_sale_value;
+                tmp.cum_diff_value = x.cum_diff_value;
+                tmp.cum_percent_diff = x.cum_percent_diff;                
 
                 res.Add(tmp);
 
