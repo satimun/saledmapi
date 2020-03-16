@@ -15,7 +15,22 @@ namespace kkfmisservice.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+
+
+            var pass = Core.Util.EncryptUtil.Hash("miskkf12345");
+            var softpass = Core.Util.EncryptUtil.NewID("miskkf" + DateTime.Now.ToString());
+
+           
+
+          //  var Code = Core.Util.EncryptUtil.NewID("watcharasak.na@gmail.com").MD5;
+
+            //, Core.Util.EncryptUtil.NewID("watcharasak.na@gmail.com").MD5() 
+            return new string[] { Core.Util.EncryptUtil.Hash(pass + softpass), softpass };
+
+
+
+
+           // return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5

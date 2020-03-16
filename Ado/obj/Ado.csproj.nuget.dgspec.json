@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {}
+    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {
+    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
+        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
         "projectName": "Ado",
-        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
-        "packagesPath": "C:\\Users\\4604587\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Ado\\obj\\",
+        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
+        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\4604587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
+              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
               },
-              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj"
+              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj": {
+    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj",
+        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\4604587\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\core\\obj\\",
+        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\4604587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,20 +135,20 @@
         }
       }
     },
-    "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
+    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\4604587\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Model\\obj\\",
+        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\4604587\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,8 +161,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\4604587\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
+              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
               }
             }
           }

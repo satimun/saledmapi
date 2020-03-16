@@ -167,7 +167,7 @@ namespace kkfmisservice.Engine.Apis
             }
 
             // check access token
-            //var accesskey = StaticValue.GetInstant().sxtAccessToken.Where(x => x.Code.Equals(AccessToken)).FirstOrDefault();
+            //var accesskey = StaticValue.GetInstant().mdtAccessToken.Where(x => x.Code.Equals(AccessToken)).FirstOrDefault();
             //if (accesskey == null) { throw new Exception(ErrorCode.O000.ToString()); }
 
             // check token
