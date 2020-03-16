@@ -21,7 +21,7 @@ namespace kkfmisservice.Controllers.Apis
             return await Task.Run(() => ResponeValid(res.Execute(HttpContext)));
         }
 
-        [HttpPut("Login")]
+        [HttpPost("Login")]
         public async Task<dynamic> Login([FromBody] dynamic data)
         {
             var res = new OauthLogin();
