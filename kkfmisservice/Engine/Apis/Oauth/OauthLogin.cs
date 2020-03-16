@@ -49,18 +49,7 @@ namespace kkfmisservice.Engine.Apis.Oauth
                     ExpiryTime = DateTime.Now.AddMinutes(config.Select(x => x.LoginTime).FirstOrDefault())
                 }, user.ID.Value);
 
-                if (config.TrueForAll(x => x.EmailLogin == true))
-                {
-                    var access = Ado.Mssql.Table.AccessToken.GetInstant().Search(this.AccessToken).FirstOrDefault();
-                    string subject = "Login Notification";
-                    string body = $"<p><b>Dear {user.Username} ,</b></p>" +
-                    $"<p>This is notify you of a successful login to your account.</p>" +
-                    $"<p>Login Time: {DateTime.UtcNow.ToString()}</p>" +
-                    $"<p>IP Address: {access.IPAddress}</p>" +
-                    $"<p>User Agent: {access.Agent}</p>";
-
-                    Task.Run(() => Core.SendMail.SendMail.Send(user.Email, subject, body));
-                }
+             
 
                 dataRes.data = res;
                 StaticValue.GetInstant().TokenKey();
