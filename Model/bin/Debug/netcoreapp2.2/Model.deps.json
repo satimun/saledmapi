@@ -27,7 +27,7 @@
           "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
-          "Core.dll": {}
+          "core.dll": {}
         }
       }
     }

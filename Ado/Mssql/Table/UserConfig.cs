@@ -59,13 +59,13 @@ namespace Ado.Mssql.Table
         {
             DynamicParameters param = new DynamicParameters();
             param.Add("@User_ID", d.User_ID);
-            param.Add("@TwoFactorEnable", d.TwoFactorEnable);
+      
             param.Add("@EmailLogin", d.EmailLogin);
             param.Add("@LoginTime", d.LoginTime);
             param.Add("@UpdateBy", userID);
 
-            string cmd = "INSERT INTO mdsUserConfig (User_ID, TwoFactorEnable, EmailLogin, LoginTime, UpdateBy, Timestamp) " +
-                "VALUES (@User_ID, @TwoFactorEnable, @EmailLogin, @LoginTime, @UpdateBy, GETDATE());";
+            string cmd = "INSERT INTO mdsUserConfig (User_ID, EmailLogin, LoginTime, UpdateBy, Timestamp) " +
+                "VALUES (@User_ID, @EmailLogin, @LoginTime, @UpdateBy, GETDATE());";
             var res = ExecuteScalar<int>(transac, cmd, param);
             return res;
         }
