@@ -72,7 +72,7 @@ namespace kkfmisservice.Engine.Apis.User
                     Code = Core.Util.EncryptUtil.NewID(dataReq.email).MD5(),
                     Email = dataReq.email.Trim(),
                     Username = dataReq.username.Trim(),
-                    Password = Core.Util.EncryptUtil.Hash(pass + softpass),
+                    Password = Core.Util.EncryptUtil.Hash(pass + softpass),      
                     SoftPassword = softpass,
                     Description = emp.Description,
                     Type = true,
