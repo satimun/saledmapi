@@ -13,12 +13,6 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
-<<<<<<< HEAD
-=======
-# Mono auto generated files
-mono_crash.*
-
->>>>>>> 6b73a05a6e3ee90a043739e6bb3eb4f0a78da00d
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -32,10 +26,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-<<<<<<< HEAD
-=======
-[Ll]ogs/
->>>>>>> 6b73a05a6e3ee90a043739e6bb3eb4f0a78da00d
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -49,16 +39,9 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-<<<<<<< HEAD
 # NUNIT
 *.VisualState.xml
 TestResult.xml
-=======
-# NUnit
-*.VisualState.xml
-TestResult.xml
-nunit-*.xml
->>>>>>> 6b73a05a6e3ee90a043739e6bb3eb4f0a78da00d
 
 # Build Results of an ATL Project
 [Dd]ebugPS/
@@ -96,11 +79,6 @@ StyleCopReport.xml
 *.tlh
 *.tmp
 *.tmp_proj
-<<<<<<< HEAD
-*.csproj
-=======
-*_wpftmp.csproj
->>>>>>> 6b73a05a6e3ee90a043739e6bb3eb4f0a78da00d
 *.log
 *.vspscc
 *.vssscc
@@ -143,12 +121,9 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-<<<<<<< HEAD
 # JustCode is a .NET coding add-in
 .JustCode
 
-=======
->>>>>>> 6b73a05a6e3ee90a043739e6bb3eb4f0a78da00d
 # TeamCity is a build add-in
 _TeamCity*
 
