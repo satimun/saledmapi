@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {}
+    "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Ado\\Ado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj": {
+    "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Ado\\Ado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
+        "projectUniqueName": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Ado\\Ado.csproj",
         "projectName": "Ado",
-        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\Ado.csproj",
-        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Ado\\obj\\",
+        "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Ado\\Ado.csproj",
+        "packagesPath": "C:\\Users\\6300158\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Ado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\6300158\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
+              "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Core\\Core.csproj": {
+                "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Core\\Core.csproj"
               },
-              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj"
+              "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\Model.csproj": {
+                "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\Model.csproj"
               }
             }
           }
@@ -69,24 +69,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj": {
+    "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\core\\core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj",
+        "projectUniqueName": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\core\\core.csproj",
         "projectName": "core",
-        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\core.csproj",
-        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\core\\obj\\",
+        "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\core\\core.csproj",
+        "packagesPath": "C:\\Users\\6300158\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\6300158\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,24 +131,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj": {
+    "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\5402664\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Model\\obj\\",
+        "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\6300158\\.nuget\\packages\\",
+        "outputPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\5402664\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\6300158\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,8 +161,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\5402664\\source\\repos\\kkfmisapi\\Core\\Core.csproj"
+              "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Core\\Core.csproj": {
+                "projectPath": "D:\\workspace\\SaleDM Dashboard\\SaleDM_API\\saledmapi\\Core\\Core.csproj"
               }
             }
           }
@@ -176,6 +176,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -193,7 +197,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

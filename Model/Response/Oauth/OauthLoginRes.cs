@@ -6,7 +6,7 @@ namespace Model.Response.Oauth
 {
     public class OauthLoginRes
     {
-        public string username { get; set; }
+        public string USER_ID { get; set; }
         public string token { get; set; }
     }
 }

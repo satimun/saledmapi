@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Model.Table.Mssql
 {
-    public class mdsUserConfig
+    public class zUSERConfig
     {
         public int? User_ID;
         public bool TwoFactorEnable;
